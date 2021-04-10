@@ -1,0 +1,50 @@
+/* .....CSS selector.... */
+/* 1.universal selector   --> in css *
+2.id selector             -->in css  #
+3. class selector         --> in css .
+4. element selector (or type)  --> in css element name like p,h1 etc 
+5. psedo selectors    ---> in css :
+6. group selectors     ---> in css div,p,h1{}
+7 . combinator */
+
+/* this is css comments */
+/* body{
+    background-color:cornsilk;
+    color: aqua;
+    font-size: 50px;
+}
+section{
+    background-color: aqua;
+    color: brown;
+    font-size: 50px;
+} */
+/* universal selector */
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+    background-color: aqua;
+}
+
+
+#headerBlock{
+    background-color:red;
+
+}
+#sliderBlock{
+    background-color:yellow;
+  
+}
+#footerBlock{
+    background-color:black;
+   color: aliceblue;
+}
+.block{
+    height: 200px;
+}
+
+
+
+
+

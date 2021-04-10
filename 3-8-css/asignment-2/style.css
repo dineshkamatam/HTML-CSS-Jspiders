@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    overflow: auto;
+}
+
+.d1{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.aa1{
+    width: 100%;
+    height: 200px;
+    background-color:chocolate;
+
+}
+.aa2{
+    width: 100%;
+    height: 200px;
+    background-color:darkslategrey;
+
+}   
+.d2{
+
+    width: 50%;
+    float: right;
+}
+.sd1{
+    width: 100%;
+    height: 100px;
+    background-color:brown;
+}
+.sd2{
+    width: 100%;
+    height: 100px;
+    background-color:aqua;
+}
+.sd3{
+    overflow: auto;
+ 
+}
+.sd4{
+    width: 100%;
+    height: 100px;
+    background-color:blue;
+}
+.dd1{
+    height: 100px;
+    width: 50%;
+    float: left;
+    background-color:black;
+}
+.dd2{
+    height: 100px;
+    width: 50%;
+    float: right;
+    background-color: crimson;
+}

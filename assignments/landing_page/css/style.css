@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    overflow: auto;
+    height: 100vh;
+    background-image: url('../img/pexels-photo-583847.jpeg');
+    background-size: 100% 100%;
+}
+
+.mainlogo{
+    width: 20%;
+    float: left;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+span{
+    font-size: 50px;
+    color: #fff ;
+     position: relative;
+    top: 10px;
+    left: 7px;
+}
+.sec1{
+    overflow: auto;
+    background-color: black;
+    opacity: 0.5;
+    margin: 30px;
+   border-radius: 10px;
+}
+
+nav{
+    width: 80%;
+    overflow: hidden;
+    box-sizing: border-box;
+   
+    float: right;
+    margin-top: 40px;
+    position:sticky;
+    top: 0;
+
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    transition: 1s;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+   
+}
+
+.sec2{
+   background-color:rgba(0,0,0,0.7);
+   margin: 20px;
+ 
+}
+
+.title{
+    color: #fff;
+    font-size: 40px;
+    padding: 30px;
+    padding-left: 30%;
+}
+.buttons{
+    padding-left: 35%;
+
+    margin-top: 5%;
+}
+button{
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    border:none;
+    font-size: 30px;
+    border-radius: 20px;
+}
+button:hover{
+    color: yellow;
+    background-color: black;
+    border: 2px solid #fff;
+}
+
+.image{
+    background-image: url('../img/PicsArt_12-27-07.40.54\ \(1\).jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #fff;
+    margin-left: 43%;
+    border-radius: 50%;
+
+}
+
+p{
+    color: #fff;
+    padding: 20px;
+}

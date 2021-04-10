@@ -1,0 +1,48 @@
+body{
+    background-color: #afd275;
+}
+h1{
+   
+    text-align: center;
+    font-size: 75px;
+    margin-top: 5%;
+    animation: text 3s ease infinite ;
+    color:aliceblue;
+    text-shadow: 
+    -8px -8px 12px rgba(255,255,255,0.4),
+    8px 8px 12px rgba(0,0,0,0.08);
+    caret-color:#262626;
+    outline: none;
+
+}
+.container{
+    width:600px;
+    height: 300px;
+    position: absolute;
+    background-color: #afd275;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+
+}
+
+@keyframes text{
+    0%{
+        color:antiquewhite;
+    }
+    20%{
+        color:black;
+    }
+    40%{
+        color:darkgoldenrod;
+    }
+    60%{
+        color:brown;
+    }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Personal Details</h1>
+        <form action="">
+            <div class="form">
+             
+                    <div id="lable">
+                    <label for="firstName">First Name</label>
+                    </div>
+                    <div id="field">
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter Your First Name.." >
+                    </div>
+            
+                    <div id="lable">
+                    <label for="LastName">Last Name</label>
+                    </div>
+                    <div id="field">
+                    <input type="text" id="LastName" name="LastName" placeholder="Enter Your Last Name.." >
+                    </div>
+        
+                    <div id="lable">
+                        <label for="email">Email-Id</label>
+                    </div>
+                    <div id="field">
+                        <input type="email" name="email" id="email"  placeholder="Enter Your Mail Id.." >
+                    </div>
+
+                    <div id="lable">
+                        <label for="password">Password</label>
+                    </div>
+                    <div id="field">
+                        <input type="password" name="password" id="password"  placeholder="Enter Your Password..">
+                    </div>
+
+                    <div id="lable">
+                        <label for="Qualification">Qualification</label>
+                    </div>
+                    <div id="field">
+                        <select name="Qualification" id="Qualification">
+                            <option value="">------Select------</option>
+                            <option value="B.E">B.E</option>
+                            <option value="B.Tech">B.Tech</option>                       <option value="B.C.A">B.C.A</option>
+                            <option value="M.E">M.E</option>
+                            <option value="M.Tech">M.Tech</option>
+                            <option value="M.C.A">M.C.A</option>
+                        </select>
+                    </div>
+
+                    <div id="lable">
+                        <label for="Y.O.P">Y.O.P</label>
+                    </div>
+                    <div id="field">
+                        <input type="month" name="Y.O.P" value="" id="Y.O.P">
+                    </div>
+
+                    <div id="lable">
+                        <label for="Course">Course</label>
+                    </div>
+                    <div id="field">
+                        <select name="Course" id="Course">
+                            <option value="">------Select------</option>
+                            <option value="Development">Development</option>
+                            <option value="Testing">Testing</option>                    
+                        </select>
+                    </div>
+
+                    <div id="lable">
+                        <label for="Gender">Gender</label>
+                    </div>
+                    <div id="field">
+                        <span>Male</span><input type="radio" name="Gender" id="Gender" value="male" checked>
+                        <span>Female</span><input type="radio" name="Gender" id="Gender" value="Female">
+                    </div>
+                    
+                    <div id="lable">
+                        <label for="Place">Place</label>
+                     </div>
+                    <div id="field">
+                        <input type="text" id="Place" name="Place" placeholder="Enter Your Place.." >
+                    </div>
+
+                    <div id="lable">
+                        <label for="Subject">Subjects</label>
+                    </div>
+                    <div id="field">
+                        <input type="checkbox" name="Subject" id="Subject" value="Java" checked><span>Java</span><br>
+                        <input type="checkbox" name="Subject" id="Subject" value="J2EE"><span>J2EE</span> <br>
+                        <input type="checkbox" name="Subject" id="Subject" value="SQL"><span>SQL</span>
+                        <br>
+                        <input type="checkbox" name="Subject" id="Subject" value="React"><span>React</span><br>
+                        <input type="checkbox" name="Subject" id="Subject" value="Angular"><span>Angular</span> <br>
+                        <input type="checkbox" name="Subject" id="Subject" value="JavaScript"><span>JavaScript</span>
+                        <br>
+                    </div>
+
+                    <div id="lable">
+                        <label for="resume">Resume</label>
+                    </div>
+                    <div id="field">
+                        <input type="file" name="resume" id="resume" accept="application/msword,application/pdf">
+                    </div>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+
+                </div>
+
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>

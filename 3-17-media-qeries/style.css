@@ -1,0 +1,67 @@
+/* body {
+    background-color: lightgreen;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    body {
+      background-color:chartreuse;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    body {
+      background-color:bisque;
+      background-image: url('../images/clg.png');
+    }
+  }
+  @media screen and (max-width: 800px) {
+    body {
+      background-color:brown;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    body {
+      background-color:cyan;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    body {
+      background-color:darkgoldenrod
+    }
+  }
+  @media screen and (max-width: 500px) {
+    body {
+      background-color:forestgreen;
+    }
+  }
+
+
+
+
+
+
+
+
+  #dd{
+      border: 1px solid black;
+      height: 200px;
+      background-color: red;
+  }
+
+  @media screen and (max-width: 600px ){
+      #dd{
+          width: 80%;
+          height: 300px;
+          background-color:darkkhaki;
+          margin: auto;
+          border: 1px solid rebeccapurple;
+      }
+  } */
+
+
+  body{background-color: aqua;}
+
+  @media screen and (orientation:landscape){
+      body{
+          background-color: blue;
+      }
+  }

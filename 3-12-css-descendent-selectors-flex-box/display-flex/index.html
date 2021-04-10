@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #container{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 400px;
+
+    }
+    #container div{
+        padding: 20px;
+        height: 150px;
+        width: 30%;
+        text-align: justify;
+        border: 1px solid black;
+    }
+    #id1{
+        background-color:blueviolet;
+       /* align-self: flex-start; */
+       order: 2;
+       align-self: flex-start;
+    }
+    #id2{
+        background-color:aqua;
+      order: 3;
+        
+    }
+    #id3{
+        background-color:cadetblue;
+      
+    }
+</style>
+
+</head>
+<body>
+    <div id="container">
+        <div id="id1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam distinctio nulla et excepturi molestiae quidem recusandae odio dolorem atque, similique voluptates? Optio nesciunt ex praesentium sed. Non maiores sapiente id cupiditate sint quae culpa reiciendis nostrum nulla ullam, explicabo laboriosam possimus dolorum nesciunt. Quam tenetur quod sed asperiores numquam voluptas?</div>
+        <div id="id2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veniam distinctio laborum, unde labore ex? Veniam unde harum a numquam sit quibusdam quae rerum est. Aliquid, asperiores? Doloribus labore enim ad ut quasi? Harum dolor labore, rem ad accusantium velit quod hic doloribus voluptatem, voluptas eligendi ratione mollitia possimus dignissimos!</div>
+        <div id="id3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos temporibus aperiam, mollitia sit voluptas? Corrupti, labore. Deserunt labore voluptas incidunt doloremque suscipit soluta, est vitae, reiciendis aspernatur facilis dicta adipisci. Quas commodi, a dolores repudiandae reiciendis, earum tenetur et assumenda odit, rem soluta praesentium ex quae magnam! Quam, aut?</div>
+    </div>
+</body>
+</html>

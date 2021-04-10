@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: 40px;
+            color: red;
+        }
+        #para::first-line{
+           font-variant: small-caps; 
+           color: blue;
+        }
+        h1::before{
+            content: "before ";
+            color:blue ;
+        }
+        h1::after{
+            content: " after ";
+            color:blue ;
+        }
+        ::selection{
+            background-color: chocolate;
+            color: aliceblue;
+        }
+        input::placeholder{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis voluptates quisquam temporibus quod doloribus deleniti repellendus similique debitis blanditiis aliquid, culpa tempore distinctio aspernatur quis vel esse eos eligendi iure?</p>
+    <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis voluptates quisquam temporibus quod doloribus deleniti repellendus similique debitis blanditiis aliquid, culpa tempore distinctio aspernatur quis vel esse eos eligendi iure?</p>
+
+    <h1>this is something</h1>
+
+    <br><br>
+    <input type="text" placeholder="enter ur name..">
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+body{
+  background-color: darkcyan;  
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px chocolate;
+    /* font-style: italic; */
+    font-weight: bold;
+    
+    
+}
+
+P{
+    text-align:justify;
+    text-indent:100px ;
+    font-style: italic;
+    font-size: 30px;
+    /* font-weight: 900; */
+    font-family: 'Redressed', cursive;
+   
+    
+}
